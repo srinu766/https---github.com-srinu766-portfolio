@@ -1,5 +1,4 @@
 import About from "./componets/About"
-
 import Home from "./componets/Home";
 import NavBar from "./componets/NavBar";
 import Portfolio from "./componets/Portfolio";

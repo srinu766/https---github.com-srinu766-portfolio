@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroImage from "../asserts/Hero.jpg";
-import {MdOutlineKeyboardArrowRight} from "react-icons/md"
+// import {MdOutlineKeyboardArrowRight} from "react-icons/md"
+import {BiRightArrowAlt} from "react-icons/bi"
 import { Link } from "react-scroll"
 
 const Home = () => {
@@ -28,7 +29,7 @@ const Home = () => {
                      flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                         Portfolio
                         <span className='group-hover:rotate-90 duration-300'>
-                        <MdOutlineKeyboardArrowRight size={25} className="ml-1"/>
+                        <BiRightArrowAlt size={25} className="ml-1"/>
                         </span>
                     </Link>
                 </div>
