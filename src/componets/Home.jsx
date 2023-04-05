@@ -1,19 +1,16 @@
 import React from 'react'
-import HeroImage from "../asserts/Hero.jpg";
-// import {MdOutlineKeyboardArrowRight} from "react-icons/md"
-import {BiRightArrowAlt} from "react-icons/bi"
+import HeroImage from "../asserts/Hero2.png";
+import {BiRightArrowAlt} from "react-icons/bi";
 import { Link } from "react-scroll"
 
 const Home = () => {
   return (
     <div name='home' 
     className='h-screen w-full bg-gradient-to-b from-black via-black
-     to-gray-900 pt-20 '
+     to-gray-900 ' 
      >
-        <div className='max-w-screen-lg mx-auto flex  flex-col
-        items-center justify-center h-full px-4 md:flex-row lg:flex-row sm:flex-row  sm:flex-cols-2 sm:px-0'>
-        {/* grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 */}
-            <div className='flex flex-col justify-center h-full'>
+        <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
+            <div className='flex flex-col justify-center h-full mt-10'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>I'm a Frontend Developer</h2>
                 <p className='text-gray-500 py-4 mx-w-md'>
                     I'm a fresher looking For Frontend Developer.
@@ -36,7 +33,7 @@ const Home = () => {
             </div>
             
             <div className=''>
-                <img src={HeroImage} alt="my profile"  className='rounden-2xl mx-auto w-2/3  h-2/3   md:w-full'/>
+                <img src={HeroImage} alt="my profile"  className='rounded-2xl mx-auto w-2/3 md:w-full'/>
             </div>
 
         </div>

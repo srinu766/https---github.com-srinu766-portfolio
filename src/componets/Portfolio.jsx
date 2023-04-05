@@ -36,13 +36,12 @@ const Portfolio = () => {
   ]
 
   return (
-    <div name='Portfolio' 
+    <div name='portfolio' 
     className="bg-gradient-to-b from-black via-black to-gray-900 w-full text-white md:h-screen">
-    {/* <div className='bg-gradient-to-b from-black via-slate-900 to-black'> */}
     
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full '>
-        <div className='   '>
-          <p className='text-4xl font-bold inline border-b-4'>Portfolio</p>
+        <div className='pb-8'>
+          <p className='text-4xl font-bold inline border-b-4 '>Portfolio</p>
           <p className='py-6'>Check out some of my works here.</p>
         </div>
 
@@ -60,7 +59,6 @@ const Portfolio = () => {
         }
         </div>
       </div>
-    {/* </div> */}
    </div>
   )
 }
